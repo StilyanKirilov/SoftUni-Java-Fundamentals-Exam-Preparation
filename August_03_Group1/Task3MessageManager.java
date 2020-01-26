@@ -50,27 +50,6 @@ public class Task3MessageManager {
             System.out.printf("%s - %d\n", name, personSend.get(name) + personReceived.get(name));
         }
 
-//List<String> names = personHealth.entrySet().stream()
-//                .sorted((entryA, entryB) -> {
-//                    int healthA = entryA.getValue();
-//                    String nameA = entryA.getKey();
-//                    int healthB = entryB.getValue();
-//                    String nameB = entryB.getKey();
-//
-//                    if (healthA != healthB) {
-//                        return Integer.compare(healthB, healthA);
-//                    } else {
-//                        return nameA.compareTo(nameB);
-//                    }
-//
-//                })
-//                .map(entry -> entry.getKey())
-//                .collect(Collectors.toList());
-//        System.out.printf("People count: %d\n", names.size());
-//        for (String name : names) {
-//            System.out.printf("%s - %d - %d\n",
-//                    name, personHealth.get(name), personEnergy.get(name));
-//        }
     }
 
     private static void empty(String id) {
