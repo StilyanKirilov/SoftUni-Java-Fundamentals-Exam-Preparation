@@ -3,7 +3,7 @@ package Final_Exam_Prep.August_03_Group2_TwoMapsSolution;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Task3IMPORTANThowToWorkWithTwoMapsAndSortThemAndPrintThem {
+public class BattleManager {
 
     static Map<String, Integer> personHealth = new HashMap<>();
     static Map<String, Integer> personEnergy = new HashMap<>();
